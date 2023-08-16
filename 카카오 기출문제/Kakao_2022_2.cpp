@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>
 using namespace std;
-long long solve(vector<int> queue1, vector<int> queue2, long long sum1, long long sum2)
+long long solve(vector<int> &queue1, vector<int> &queue2, long long sum1, long long sum2)
 {
     int target = (sum1 + sum2)/2;
     int n = queue1.size();
